@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Express App</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css"></link>
+</head>
+
+<body>
+    <br>
+    <div id="div1">
+    <h1 id="h"> Welcome To My Express App! </h1>
+    <br>
+    <h2 id="h"> Enter your personal details here: </h2>
+
+    <form action="home" method="POST" id="studentForm" name="student-form">
+        <p> 
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="Name" required> 
+        </p>
+        <p> 
+            <label for="gender">Gender:</label> 
+            <input type="text" id="gender" name="Gender" required> 
+        </p>
+        <p> 
+            <label for="age">Age:</label> 
+            <input type="number" id="age" name="Age" required> 
+        </p>
+        <p> 
+            <label for="course">Course:</label> 
+            <input type="text" id="course" name="Course" required> 
+        </p><br>
+        <div class="form-input">
+            <input type="submit" value="Submit">
+        </div><br>
+    </form>
+    </div>
+    
+</body>
+</html>
